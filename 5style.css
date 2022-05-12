@@ -4,98 +4,108 @@
   box-sizing: border-box;
 }
 
-header h1 {
-  flex: display;
+.heading {
+  margin:20px auto;
   text-align: center;
-  padding: 20px 0;
 }
 
-.navi-list {
+.nav-list {
   text-align: center;
-  padding: 15px 0;
-  margin: 0 auto;
-  border-top: 1px solid #848282;
-  border-bottom: 1px solid #848282;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
 }
 
-.navi-item {
-  list-style: none;
+.nav-list li {
+  padding: 0 20px;
+  margin: 15px 0;
   display: inline-block;
-  margin: 0 20px;
 }
 
 main {
   width: 800px;
-  margin: 50px auto;
   display: flex;
+  margin: 50px auto;
   flex-wrap: wrap;
 }
 
-.box1{
+.box1 {
   width: 200px;
   height: 200px;
-  background-color: #e6ffe9; 
+  background-color: #e6ffe9;
 }
-.box2{
+
+.box2 {
   width: 200px;
   height: 200px;
-  background-color: #cbffd3; 
+  background-color: #cbffd3;
 }
-.box3{
+
+.box3 {
   width: 200px;
   height: 200px;
-  background-color: #adffbd; 
+  background-color: #aeffbd;
 }
-.box4{
+
+.box4 {
   width: 200px;
   height: 200px;
-  background-color: #93ffab; 
+  background-color: #93ffab;
 }
-.box5{
+
+.box5 {
   width: 200px;
   height: 200px;
-  background-color: #f3ffd8; 
+  background-color: #f3ffd8;
 }
-.box6{
+
+.box6 {
   width: 200px;
   height: 200px;
-  background-color: #edffbe; 
+  background-color: #edffbe;
 }
-.box7{
+
+.box7 {
   width: 200px;
   height: 200px;
-  background-color: #e9ffa5; 
+  background-color: #e9ffa5;
 }
-.box8{
+
+.box8 {
   width: 200px;
   height: 200px;
-  background-color: #e4ff8d; 
+  background-color: #e4ff8d;
 }
-.box9{
+
+.box9 {
   width: 200px;
   height: 200px;
-  background-color: #d9e5ff; 
+  background-color: #d9e5ff;
 }
-.box10{
+
+.box10 {
   width: 200px;
   height: 200px;
-  background-color: #bad3ff; 
+  background-color: #bad3ff;
 }
-.box11{
+
+.box11 {
   width: 200px;
   height: 200px;
-  background-color: #a4c6ff; 
+  background-color: #a4c6ff;
 }
-.box12{
+
+.box12 {
   width: 200px;
   height: 200px;
-  background-color: #8eb8ff; 
+  background-color: #8eb8ff;
 }
 
 footer {
-  color: white;
-  background-color: #848282;
   text-align: center;
+  background-color: darkgray;
+  height: 120px;
   line-height: 120px;
-  margin: 0 auto;
+}
+.footer-text {
+  color: white;
 }
